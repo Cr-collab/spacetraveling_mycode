@@ -1,0 +1,56 @@
+.containerPosts{
+  max-width: 1120px;
+  padding:  0 2rem;
+}
+
+
+.contentPosts{
+  max-width: 720px;
+  margin: 0 auto;
+
+   a{
+     display: block;
+     
+      strong{
+         font-size: 1.75rem;
+         font-weight: bold;
+         margin-bottom: 0.5rem;
+         transition: color 0.5s;
+
+         &:hover{
+           color: var(--Highlight
+           )
+         }
+      }
+
+      p {
+        color: var(--body);
+      }
+
+      p + p {
+        margin-top :  28px;
+
+      }
+
+      & + a {
+        margin-top: 2rem;
+      }
+
+      time {
+        display: inline-block;
+        margin-right:  1.5rem;
+      }
+   }
+
+    .btnLoad {
+     color: var(--Highlight);
+     background: transparent;
+     border: 0;
+     margin-top:  2rem;
+
+     &:hover{
+       filter : brightness(0.5)
+     }
+   }
+}
+
